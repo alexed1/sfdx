@@ -7,7 +7,7 @@
 
 		var urlEvent = $A.get("e.force:navigateToURL");
 	    urlEvent.setParams({
-	      "url": 'https://www.google.com/maps/place/' + destination
+	      "url": 'https://www.google.com/maps/place/' + address
 	    });
 	    urlEvent.fire();
 
